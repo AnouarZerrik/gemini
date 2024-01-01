@@ -6,7 +6,7 @@ genai.configure(api_key='AIzaSyBLdPt9xCo9Ia1vpBuxfCl9EMq0FqXByyI')
 
 st.title("Gemini AI :robot_face:")
 
-st.write("Please enter a prompt below, and the model will generate a response.")
+st.write("Let talk with AI")
 query =  st.text_input("")
 prompt = st.button("Generate")
 if prompt:
